@@ -1,0 +1,91 @@
+body
+{
+  color:#FFFFFF;
+  font-size:16px;
+  font-family:Arial;
+  background:#000000 url("../images/background.jpg") no-repeat center;
+}
+
+#page-wrapper
+{
+  position:absolute;
+  margin:0 auto;
+  width:960px;
+  left:50%;
+  margin-left:-480px;
+  padding: 150px 0px 0px 0px;
+
+}
+
+#header{
+  width:865px;
+  float:left;
+}
+
+/****
+TOP MENU
+*/
+#top-menu
+{
+  position:relative;
+  float:right;
+  left:-30px;
+}
+
+.region-top-menu .menu a
+{
+  color:#5c5c5c;
+  text-decoration:none;
+}
+.region-top-menu .menu a:hover,
+.region-top-menu .menu a.active
+{
+  color:#3a6464;
+  text-decoration:none;
+}
+
+.region-top-menu .menu li
+{
+  display: inline;
+  position:relative;
+  left:-20px;
+  border-right: 1px solid #353535;  
+}
+.region-top-menu .menu li:last-child
+{
+  border-right: none;
+}
+
+#block-system-main-menu
+{
+  background-color:#2d2d2d;
+  height:49px;
+  padding:1px 1px 0px 0px;
+  border-radius:20px 20px 0px 0px;
+  width:100%;
+  background: -moz-linear-gradient(top, #2b2b2b, #1a1a1a, #161616, #1a1a1a, #161616);
+  background: -webkit-linear-gradient(top, #2b2b2b, #1a1a1a, #161616, #1a1a1a, #161616);
+}
+
+/*****
+BANNER
+*/
+#banner
+{
+  position:relative;
+  width:865px;
+}
+
+.view-banner .views-field-field-logo
+{
+  display:inline;
+  float:left;
+}
+
+.view-banner .views-field-field-banner
+{
+  position:absolute;
+  display:inline;
+  top:-25px;
+}
+
